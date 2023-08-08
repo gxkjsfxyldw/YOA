@@ -1,0 +1,7 @@
+
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(±·°ì8åÍ˜ó›1
+O
+java:S1874)"2Remove this use of "isNotEmpty"; it is deprecated.(’Å…Ê8ùöòó›1
+c
+java:S1075`"ARefactor your code to get this URI from a customizable parameter.(Ô®×•üÿÿÿÿ8õÍ˜ó›1
+]	java:S125b"<This block of commented-out lines of code should be removed.(ã¢ıÿÿÿÿ8…Î˜ó›1

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/yoa-generator/yoa-generator.iml" filepath="$PROJECT_DIR$/parent/yoa-generator/yoa-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/yoa-server/yoa-server.iml" filepath="$PROJECT_DIR$/parent/yoa-server/yoa-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/云上OA办公系统.iml" filepath="$PROJECT_DIR$/.idea/云上OA办公系统.iml" />
+    </modules>
+  </component>
+</project>
