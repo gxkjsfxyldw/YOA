@@ -37,8 +37,6 @@ u
 Eparent/yoa-server/src/main/java/com/server/dao/pojo/SalaryAdjust.java,6\a\6a95447df69f7f1d41248003aa5321cb051b9755
 q
 Aparent/yoa-server/src/main/java/com/server/dao/pojo/Appraise.java,2\9\29fd533742924494ed7d60b077ea9b5b1b27dd40
-q
-Aparent/yoa-server/src/main/java/com/server/dao/pojo/Joblevel.java,a\a\aa657e0dff7eb407e245a860b372793208329e22
 m
 =parent/yoa-server/src/main/java/com/server/dao/pojo/Role.java,e\4\e4431e0d0efbf3b663a60c89bda0105ddbab4959
 n
@@ -91,8 +89,6 @@ Oparent/yoa-server/src/main/java/com/server/controller/DepartmentController.java
 Qparent/yoa-server/src/main/java/com/server/controller/SalaryAdjustController.java,4\7\4774790c4ec1bbdac2155531954e2f308ad3744a
 ‚
 Rparent/yoa-server/src/main/java/com/server/controller/EmployeeTrainController.java,3\3\333a6de2d1e26e6e6a8bbfa908b7f283876ef9ff
-}
-Mparent/yoa-server/src/main/java/com/server/controller/JoblevelController.java,1\1\112495752f9c77e396f671423110c5d7e5ea5dd1
 {
 Kparent/yoa-server/src/main/java/com/server/controller/SalaryController.java,9\0\908b53f0d0236ad190d43f8dc0b3452f90b145c7
 |
