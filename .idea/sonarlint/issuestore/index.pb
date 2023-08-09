@@ -81,8 +81,6 @@ Uparent/yoa-server/src/main/java/com/server/service/impl/SysMsgContentServiceImp
 Nparent/yoa-server/src/main/java/com/server/service/impl/SysMsgServiceImpl.java,8\b\8b3caf6e0cabc8c78a3bb2882471489cd7289f81
 Ü
 Vparent/yoa-server/src/main/java/com/server/service/impl/EmployeeRemoveServiceImpl.java,a\f\afb6ec187899284eb41f78243c9adb8d80ab503f
-}
-Mparent/yoa-server/src/main/java/com/server/controller/MenuRoleController.java,7\4\74376546082dcf16df464a6a735ea6690c53200f
 
 Oparent/yoa-server/src/main/java/com/server/controller/DepartmentController.java,4\b\4b8a1f0b386c88ae90bd70b04a5303b63ee8b98b
 Å
@@ -149,8 +147,6 @@ w
 Gparent/yoa-server/src/main/java/com/server/dao/mapper/SalaryMapper.java,a\0\a03b159eac3a256c8942fe1d0e383bb9e2acd995
 w
 Gparent/yoa-server/src/main/java/com/server/dao/mapper/NationMapper.java,b\1\b18870cf9d7980c6a894dcf9bc0825f22425ee68
-y
-Iparent/yoa-server/src/main/java/com/server/dao/mapper/MenuRoleMapper.java,d\e\decfe9f148a19d8e129c23fd818efd63eb20b0a5
 Ñ
 Tyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/config/RabbitMQConfig.java,6\4\6431979aad610f1e6486918c24d5644bb024019b
 Å
@@ -307,12 +303,8 @@ x
 Hyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/pojo/Menu.java,3\8\384ac89b3736f1aaa27f6481c900be65f4eb0dbd
 s
 Cparent/yoa-server/src/main/java/com/server/vo/param/AdminLogin.java,a\0\a00c9078b471d1c70179f10a4efd8e5d5b4046fa
-y
-Iparent/yoa-server/src/main/java/com/server/controller/MenuController.java,1\5\15ff0902c04798756613612f772d669ff100c73c
 ï
 eyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/config/security/component/CustomFilter.java,3\4\349d3d5f6ee57a7e6d6b4b5478dcc0453e11b672
-Ä
-Pparent/yoa-server/src/main/java/com/server/service/impl/MenuRoleServiceImpl.java,a\f\af8c47a78545ccd7e3319f9bb6f380d165223857
 °
 qyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/config/security/component/CustomUrlDecisionManager.java,3\f\3fac64e22b498a2118678ac628758c1ffc3d1e48
 Ñ
@@ -359,8 +351,6 @@ Nparent/yoa-server/src/main/java/com/server/controller/AdminRoleController.java
 Mparent/yoa-server/src/main/java/com/server/controller/AppraiseController.java,c\1\c1bc1ebd9594fdc3438ecc76ffb5e2247f289b1f
 w
 Gparent/yoa-server/src/main/java/com/server/service/PositionService.java,0\3\033ba34e5a0027a2041781230bd7fe3080e0cbae
-å
-\yeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/controller/PositionController.java,9\e\9e29f45b897c2d821c5b29ca53e8d86de0e5cb33
 É
 Sparent/yoa-server/src/main/java/com/server/controller/PoliticsStatusController.java,e\2\e2853e9a51c3bb38a1760c99d96722722c5dc133
 v
@@ -383,5 +373,3 @@ m
 =parent/yoa-server/src/main/java/com/server/dao/pojo/Menu.java,3\6\36342fa2dcb1db09416ddafe45f3842b443db2d7
 ã
 [yeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/service/impl/MenuServiceImpl.java,e\7\e7b5ec9c4385f743718f56b4beb10514cac127af
-x
-Hyeb/001 yeb_back/yeb-server/src/main/resources/mapper/MenuRoleMapper.xml,5\6\5656d04145807dbc14900950bd75b6b3c3436b71

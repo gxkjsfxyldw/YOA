@@ -36,8 +36,8 @@ public class PermissController {
         return roleService.list();
     }
 
-    @ApiOperation(value = "添加所有角色")
-    @PostMapping("/")
+    @ApiOperation(value = "添加角色")
+    @PostMapping("/role")
     public RespBean addRole(@RequestBody Role role){
         //先判断是否符合security的定义  ROLE_开头
         if(role.getName().startsWith("ROLE_")){
