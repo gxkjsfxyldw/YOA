@@ -303,22 +303,12 @@ Syeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/service/IMenuService.
 _yeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/service/impl/MenuRoleServiceImpl.java,8\6\86f98d86160033c1d9a09bb6f61a45ae7227af47
 €
 Pyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/mapper/MenuMapper.java,0\a\0a7414ac7b1af6f6fc1294e8a3dca69c70046ae9
-‹
-[yeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/service/impl/MenuServiceImpl.java,e\7\e7b5ec9c4385f743718f56b4beb10514cac127af
 x
 Hyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/pojo/Menu.java,3\8\384ac89b3736f1aaa27f6481c900be65f4eb0dbd
-t
-Dyeb/001 yeb_back/yeb-server/src/main/resources/mapper/MenuMapper.xml,8\0\806ac043e89ff92b0e8436aca0d936ae6242b7e1
 s
 Cparent/yoa-server/src/main/java/com/server/vo/param/AdminLogin.java,a\0\a00c9078b471d1c70179f10a4efd8e5d5b4046fa
-|
-Lparent/yoa-server/src/main/java/com/server/service/impl/MenuServiceImpl.java,d\6\d6296a1217999c26b80b4fa12d4aa41bb857e161
-u
-Eparent/yoa-server/src/main/java/com/server/dao/mapper/MenuMapper.java,4\f\4f488a90c25b04022ba522b0a359456ad29f288e
 y
 Iparent/yoa-server/src/main/java/com/server/controller/MenuController.java,1\5\15ff0902c04798756613612f772d669ff100c73c
-s
-Cparent/yoa-server/src/main/java/com/server/service/MenuService.java,a\7\a79395ee343c046a9935f4123cd6d02061c6b394
 •
 eyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/config/security/component/CustomFilter.java,3\4\349d3d5f6ee57a7e6d6b4b5478dcc0453e11b672
 €
@@ -361,8 +351,6 @@ u
 Eparent/yoa-server/src/main/java/com/server/config/Swagger2Config.java,1\e\1ea1f0bff1ccea8c78de06c58a882620e9cfd4fd
 z
 Jparent/yoa-server/src/main/java/com/server/controller/LoginController.java,3\9\39072954f15ea775a3333b6667234a8979149d33
-m
-=parent/yoa-server/src/main/java/com/server/dao/pojo/Menu.java,3\6\36342fa2dcb1db09416ddafe45f3842b443db2d7
 z
 Jparent/yoa-server/src/main/java/com/server/controller/AdminController.java,f\5\f5d0b3e83bb6e37067d9c9d3d99a58d6d7804d1d
 ~
@@ -391,3 +379,9 @@ Mparent/yoa-server/src/main/java/com/server/controller/PositionController.java,
 Mparent/yoa-server/src/main/java/com/server/controller/JoblevelController.java,1\1\112495752f9c77e396f671423110c5d7e5ea5dd1
 q
 Aparent/yoa-server/src/main/java/com/server/dao/pojo/Joblevel.java,a\a\aa657e0dff7eb407e245a860b372793208329e22
+m
+=parent/yoa-server/src/main/java/com/server/dao/pojo/Menu.java,3\6\36342fa2dcb1db09416ddafe45f3842b443db2d7
+‹
+[yeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/service/impl/MenuServiceImpl.java,e\7\e7b5ec9c4385f743718f56b4beb10514cac127af
+x
+Hyeb/001 yeb_back/yeb-server/src/main/resources/mapper/MenuRoleMapper.xml,5\6\5656d04145807dbc14900950bd75b6b3c3436b71
