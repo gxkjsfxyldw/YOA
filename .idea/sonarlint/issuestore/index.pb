@@ -208,17 +208,9 @@ Z
 Z
 *yeb/002 yeb_front/src/views/sys/SysLog.vue,5\0\50cd423692d63b6ef8a0fd79a0aa0bf4b48bdd27
 Q
-!yoa/src/views/resource/EmpAdv.vue,c\5\c5321e4ecf7b26bc83fe512154a8c79a7594b4d9
-S
-#yoa/src/views/resource/EmpBasic.vue,d\7\d776a18fcde89d264d3b6135cc6e000042018039
-R
-"yoa/src/views/salary/SalSearch.vue,4\1\4173d2ce69f0efd9bef56d232512fa27908886a9
-Q
 !yoa/src/views/salary/SalMonth.vue,a\5\a5cf3ff71be838e4b5afe0162829b70e505d39d9
 O
 yoa/src/views/salary/SalSob.vue,d\1\d13e03b3891790a70185302a6fdefef322fd35d0
-R
-"yoa/src/views/salary/SalSobCfg.vue,9\c\9cec6a58c431ea438f01d83a3c87bcf86e0c192e
 Q
 !yoa/src/views/salary/SalTable.vue,e\5\e5eedabd9b62e5eba6afa02a20c1435194a1f8e4
 M
@@ -239,10 +231,6 @@ V
 &yoa/src/views/statistics/StaRecord.vue,7\b\7b3ef7478189ae36e466ccac5d00343be892863d
 U
 %yoa/src/views/statistics/StaScore.vue,3\5\358f8050e95616c88d34ff3dc2be039ba193e4cb
-Q
-!yoa/src/views/system/SysAdmin.vue,0\5\057576b76a46fbb9debf1a19a10d4e8907c7cee9
-Q
-!yoa/src/views/system/SysBasic.vue,b\d\bde1e9c6c2b2b21ecf062c7b62a443d729d8bd91
 P
  yoa/src/views/system/SysData.vue,9\d\9db477f3e6902d252d7d5d222f1e1278fa677c46
 P
@@ -273,8 +261,6 @@ G
 yoa/src/views/Login.vue,3\4\34aef6ef748c4d32fa18cee4b6e1b2bddfba0849
 ?
 yoa/src/main.js,8\e\8e19c84d04f7329b65e35c8b6c905d99cc4761e4
-F
-yoa/src/views/Home.vue,a\d\adf05f368323d28b66efd07556c0912a8aa24016
 v
 Fparent/yoa-server/src/main/java/com/server/dao/mapper/AdminMapper.java,9\c\9c8d675cebc60276e770514f4e46e0f687a37497
 t
@@ -293,8 +279,6 @@ _yeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/service/impl/MenuRole
 Pyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/mapper/MenuMapper.java,0\a\0a7414ac7b1af6f6fc1294e8a3dca69c70046ae9
 x
 Hyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/pojo/Menu.java,3\8\384ac89b3736f1aaa27f6481c900be65f4eb0dbd
-s
-Cparent/yoa-server/src/main/java/com/server/vo/param/AdminLogin.java,a\0\a00c9078b471d1c70179f10a4efd8e5d5b4046fa
 •
 eyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/config/security/component/CustomFilter.java,3\4\349d3d5f6ee57a7e6d6b4b5478dcc0453e11b672
 ¡
@@ -307,8 +291,6 @@ t
 Dparent/yoa-server/src/main/java/com/server/service/AdminService.java,4\7\476f25fc03d200363c016a5fd429c2614bf7a555
 }
 Mparent/yoa-server/src/main/java/com/server/service/impl/AdminServiceImpl.java,c\b\cb3e125b26e542d40f15889dc6313033d2c90dcb
-p
-@parent/yoa-server/src/main/java/com/server/controller/hello.java,f\2\f2bcfe63ae577417af885bf346b790d4a2fb29a1
 n
 >parent/yoa-server/src/main/java/com/server/dao/pojo/Admin.java,1\9\198c9f35dd0b65d314145aa6e34ec4db353a6d9e
 “
@@ -329,8 +311,6 @@ eparent/yoa-server/src/main/java/com/server/config/Sercurity/component/RestfulAc
 Oparent/yoa-server/src/main/java/com/server/config/Sercurity/SecurityConfig.java,3\9\39c369346cfa573f43262555e4848f8b14611f00
 t
 Dparent/yoa-server/src/main/java/com/server/config/CaptchaConfig.java,5\b\5bf7f7bf52e90aed7cc275c8cb0fe4b834e7686d
-r
-Bparent/yoa-server/src/main/java/com/server/config/RedisConfig.java,0\2\02493e91f5a1529c7eeec1fdce35e843058fa85d
 u
 Eparent/yoa-server/src/main/java/com/server/config/Swagger2Config.java,1\e\1ea1f0bff1ccea8c78de06c58a882620e9cfd4fd
 z
@@ -405,3 +385,35 @@ Jyeb/001 yeb_back/yeb-server/src/main/resources/mapper/DepartmentMapper.xml,e\0
 Nyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/pojo/Department.java,2\c\2c46f30c5c92abb419b0a26e21e1767053f85586
 ‘
 ayeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/service/impl/DepartmentServiceImpl.java,e\5\e58ae2ad206322d394b96b28fcb2b51da6cf759f
+s
+Cparent/yoa-server/src/main/java/com/server/dao/pojo/Department.java,a\0\a0acc3cd48eba2cb12925f7a1c38649ebb1e5320
+
+Oparent/yoa-server/src/main/java/com/server/controller/DepartmentController.java,4\b\4b8a1f0b386c88ae90bd70b04a5303b63ee8b98b
+y
+Iparent/yoa-server/src/main/java/com/server/service/DepartmentService.java,a\1\a13e9859a5cec00e0b85c4e4e5507f7612b374fd
+{
+Kparent/yoa-server/src/main/java/com/server/dao/mapper/DepartmentMapper.java,9\2\920adcf826e5f9b03a2a7820c7d2b7aff7e85919
+‚
+Rparent/yoa-server/src/main/java/com/server/service/impl/DepartmentServiceImpl.java,5\3\53ab144286224fcf9fada4dc32bc729b6e973ceb
+E
+yoa/public/index.html,8\0\80f301960dc624e862a574bae7f0a1a937b673b6
+R
+"yoa/src/views/salary/SalSearch.vue,4\1\4173d2ce69f0efd9bef56d232512fa27908886a9
+R
+"yoa/src/views/salary/SalSobCfg.vue,9\c\9cec6a58c431ea438f01d83a3c87bcf86e0c192e
+S
+#yoa/src/views/resource/EmpBasic.vue,d\7\d776a18fcde89d264d3b6135cc6e000042018039
+Q
+!yoa/src/views/resource/EmpAdv.vue,c\5\c5321e4ecf7b26bc83fe512154a8c79a7594b4d9
+Q
+!yoa/src/views/system/SysAdmin.vue,0\5\057576b76a46fbb9debf1a19a10d4e8907c7cee9
+O
+yoa/src/views/system/SysCfg.vue,6\6\665e06932d7aa763a12f5e8af82bdaa688479e7c
+p
+@parent/yoa-server/src/main/java/com/server/controller/hello.java,f\2\f2bcfe63ae577417af885bf346b790d4a2fb29a1
+r
+Bparent/yoa-server/src/main/java/com/server/config/RedisConfig.java,0\2\02493e91f5a1529c7eeec1fdce35e843058fa85d
+f
+6yeb/002 yeb_front/src/components/sys/basic/DepMana.vue,7\e\7e21580d9f917edda4c6fdc899aa2e0f77a19f49
+F
+yoa/src/views/Home.vue,a\d\adf05f368323d28b66efd07556c0912a8aa24016
