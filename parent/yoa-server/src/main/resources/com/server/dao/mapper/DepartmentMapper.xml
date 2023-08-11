@@ -16,5 +16,33 @@
     <sql id="Base_Column_List">
         id, name, parentId, depPath, enabled, isParent
     </sql>
+    <!--获取所有部门-->
+    <select id="getAllDepartment" resultMap="DepartmentWithChildren">
+        select
+        <include refid="Base_Column_List"/>
+        from t_department
+        where parentId = #{parentId}
+    </select>
+<!--    结果集映射   使用递归来查询 每次查到一个id 然后再次调用sql语句-->
+    <resultMap id="DepartmentWithChildren" type="com.server.dao.pojo.Department" extends="BaseResultMap">
+        <collection property="children" ofType="com.server.dao.pojo.Department"
+                    select="com.server.dao.mapper.DepartmentMapper.getAllDepartment" column="id">
+        </collection>
+    </resultMap>
+<!--    添加部门 调用存储过程添加-->
+    <select id="addDep" statementType="CALLABLE">
+        call addDep(
+            #{name,mode=IN,jdbcType=VARCHAR},
+            #{parentId,mode=IN,jdbcType=VARCHAR},
+            #{enabled,mode=IN,jdbcType=VARCHAR},
+            #{result,mode=OUT,jdbcType=INTEGER},
+            #{id,mode=OUT,jdbcType=INTEGER})
+    </select>
+<!--   删除部门 调用存储过程添加 -->
+    <select id="deleteDep" statementType="CALLABLE">
+        call deleteDep(
+            #{id,mode=IN,jdbcType=INTEGER},
+            #{result,mode=OUT,jdbcType=INTEGER})
+    </select>
 
 </mapper>
