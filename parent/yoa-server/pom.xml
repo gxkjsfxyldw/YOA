@@ -133,5 +133,11 @@
                 <artifactId>kaptcha</artifactId>
                 <version>0.0.9</version>
             </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-extension</artifactId>
+                <version>3.3.1.tmp</version>
+                <scope>compile</scope>
+            </dependency>
         </dependencies>
 </project>
