@@ -6,6 +6,7 @@ import com.server.dao.mapper.MenuMapper;
 import com.server.dao.pojo.Admin;
 import com.server.dao.pojo.Menu;
 import com.server.service.MenuService;
+import com.server.utils.AdminUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
@@ -39,7 +40,8 @@ public class MenuServiceImpl extends ServiceImpl<MenuMapper, Menu> implements Me
      */
     @Override
     public List<Menu> getMenuByAdminId() {
-        Integer adminId = ((Admin) (SecurityContextHolder.getContext().getAuthentication().getPrincipal())).getId();
+        //从springsecurity中获取当前登录用户信息
+        Integer adminId = AdminUtils.getCurrentAdmin().getId();
         ValueOperations<String, Object> stringvalue = redisTemplate.opsForValue();
         //从redis中获取菜单数据，这个key是自己设置的
         List menus=(List<Menu>)stringvalue.get("menu_"+adminId);

@@ -20,5 +20,32 @@
     <sql id="Base_Column_List">
         id, name, phone, telephone, address, enabled, username, password, userFace, remark
     </sql>
-
+<!--  获取所有操作员-->
+    <select id="getAlladmin" resultMap="AdminWithRole">
+        SELECT
+        a.*,
+        r.id AS rid,
+        r.`name` AS rname,
+        r.nameZh AS rnameZh
+        FROM
+        t_admin a
+        LEFT JOIN t_admin_role ar ON a.id = ar.adminId
+        LEFT JOIN t_role r ON r.id = ar.rid
+        WHERE
+        a.id != #{id}
+--       判断如果关键字是空的，就查询所有
+        <if test="null!=keywords and ''!=keywords">
+            AND a.`name` LIKE CONCAT( '%', #{keywords}, '%' )
+        </if>
+        ORDER BY
+        a.id
+    </select>
+<!--    结果集映射-->
+    <resultMap id="AdminWithRole" type="com.server.dao.pojo.Admin" extends="BaseResultMap">
+        <collection property="roles" ofType="com.server.dao.pojo.Role">
+            <id column="rid" property="id" />
+            <result column="rname" property="name" />
+            <result column="rnameZh" property="nameZh" />
+        </collection>
+    </resultMap>
 </mapper>

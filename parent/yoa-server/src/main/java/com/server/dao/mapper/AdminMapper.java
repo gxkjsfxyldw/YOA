@@ -3,6 +3,9 @@ package com.server.dao.mapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.server.dao.pojo.Admin;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
  * <p>
@@ -14,5 +17,6 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface AdminMapper extends BaseMapper<Admin> {
-
+    //获取所有操作员
+    List<Admin> getAlladmin(@Param("id") Integer id,@Param("keywords")  String keywords);
 }
