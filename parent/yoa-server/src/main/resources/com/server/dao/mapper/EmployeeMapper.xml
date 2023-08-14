@@ -96,7 +96,41 @@
         ORDER BY
         e.id
     </select>
-<!--    结果集映射-->
+    <!--    根据id查询员工-->
+    <select id="getEmployee" resultMap="EmployeeInfo">
+        SELECT
+        e.*,
+        n.id AS nid,
+        n.`name` AS nname,
+        p.id AS pid,
+        p.`name` AS pname,
+        d.id AS did,
+        d.`name` AS dname,
+        j.id AS jid,
+        j.`name` AS jname,
+        pos.id AS posid,
+        pos.`name` AS posname
+        FROM
+        t_employee e,
+        t_nation n,
+        t_politics_status p,
+        t_department d,
+        t_joblevel j,
+        t_position pos
+        WHERE
+        e.nationId = n.id
+        AND e.politicId = p.id
+        AND e.departmentId = d.id
+        AND e.jobLevelId = j.id
+        AND e.posId = pos.id
+--         如果id不为空，那就根据id查，如果为空，那就查全部
+        <if test="null!=id">
+            AND e.id = #{id}
+        </if>
+        ORDER BY
+        e.id
+    </select>
+    <!--    结果集映射-->
     <resultMap id="EmployeeInfo" type="com.server.dao.pojo.Employee" extends="BaseResultMap">
         <association property="nation" javaType="com.server.dao.pojo.Nation">
             <id column="nid" property="id" />
@@ -119,4 +153,5 @@
             <result column="posname" property="name" />
         </association>
     </resultMap>
+
 </mapper>

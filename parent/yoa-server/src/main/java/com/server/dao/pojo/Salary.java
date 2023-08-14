@@ -1,12 +1,12 @@
 package com.server.dao.pojo;
 
+import cn.afterturn.easypoi.excel.annotation.Excel;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.*;
 import lombok.experimental.Accessors;
 
 import java.io.Serializable;
@@ -21,7 +21,9 @@ import java.time.LocalDateTime;
  * @since 2023-08-04
  */
 @Data
-@EqualsAndHashCode(callSuper = false)
+@RequiredArgsConstructor
+@NoArgsConstructor
+@EqualsAndHashCode(callSuper = false,of = "name")//以name来重写hashcode
 @Accessors(chain = true)
 @TableName("t_salary")
 @ApiModel(value="Salary对象", description="")
@@ -70,6 +72,8 @@ public class Salary implements Serializable {
     private Float accumulationFundPer;
 
     @ApiModelProperty(value = "名称")
+    @Excel(name = "名称")
+    @NonNull
     private String name;
 
 

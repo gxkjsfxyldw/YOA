@@ -1,0 +1,6 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(õšèøÿÿÿÿ8Äµ©•1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©«¤½8»í²•1
+«
+java:S1130"Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException' which is a subclass of 'java.io.IOException'.(¢ËÙ8Óµ©•1

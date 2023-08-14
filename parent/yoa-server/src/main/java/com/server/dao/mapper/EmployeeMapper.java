@@ -9,6 +9,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.time.LocalDate;
+import java.util.List;
 
 /**
  * <p>
@@ -22,4 +23,6 @@ import java.time.LocalDate;
 public interface EmployeeMapper extends BaseMapper<Employee> {
     // 获取所有员工（分页）
     IPage<Employee> getEmployeeByPage(@Param("page") Page<Employee> page, @Param("employee") Employee employee, @Param("beginDateScope") LocalDate[] beginDateScope);
+    //根据id查询员工
+    List<Employee> getEmployee(Integer id);
 }
