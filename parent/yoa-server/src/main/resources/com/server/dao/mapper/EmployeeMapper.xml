@@ -153,5 +153,50 @@
             <result column="posname" property="name" />
         </association>
     </resultMap>
-
+<!--    获取所有员工工资账套-->
+    <select id="getEmployeeWithSalary"  resultMap="EmployeeWithSalary">
+        SELECT
+            e.*,
+            d.`name` AS dname,
+            s.id AS sid,
+            s.`name` AS sname,
+            s.basicSalary AS sbasicSalary,
+            s.bonus AS sbouns,
+            s.lunchSalary AS slunchSalary,
+            s.trafficSalary AS strafficSalary,
+            s.allSalary AS sallSalary,
+            s.pensionBase AS spensionBase,
+            s.pensionPer AS spensionPer,
+            s.medicalBase AS smedicalBase,
+            s.medicalPer AS smedicalPer,
+            s.accumulationFundBase AS saccumulationFundBase,
+            s.accumulationFundPer AS saccumulationFundPer
+        FROM
+            t_employee e
+                LEFT JOIN t_salary s ON e.salaryId = s.id
+                LEFT JOIN t_department d ON e.departmentId = d.id
+        ORDER BY
+            e.id
+    </select>
+<!--    结果集映射-->
+    <resultMap id="EmployeeWithSalary" type="com.server.dao.pojo.Employee" extends="BaseResultMap">
+        <association property="salary" javaType="com.server.dao.pojo.Salary">
+            <id column="sid" property="id" />
+            <result column="sname" property="name" />
+            <result column="sbasicSalary" property="basicSalary" />
+            <result column="sbonus" property="bonus" />
+            <result column="slunchSalary" property="lunchSalary" />
+            <result column="strafficSalary" property="trafficSalary" />
+            <result column="sallSalary" property="allSalary" />
+            <result column="spensionBase" property="pensionBase" />
+            <result column="spensionPer" property="pensionPer" />
+            <result column="smedicalBase" property="medicalBase" />
+            <result column="smedicalPer" property="medicalPer" />
+            <result column="saccumulationFundBase" property="accumulationFundBase" />
+            <result column="saccumulationFundPer" property="accumulationFundPer" />
+        </association>
+        <association property="department" javaType="com.server.dao.pojo.Department">
+            <result column="dname" property="name" />
+        </association>
+    </resultMap>
 </mapper>

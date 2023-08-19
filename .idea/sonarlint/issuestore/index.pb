@@ -75,8 +75,6 @@ Vparent/yoa-server/src/main/java/com/server/service/impl/EmployeeRemoveServiceIm
 Qparent/yoa-server/src/main/java/com/server/controller/SalaryAdjustController.java,4\7\4774790c4ec1bbdac2155531954e2f308ad3744a
 Ç
 Rparent/yoa-server/src/main/java/com/server/controller/EmployeeTrainController.java,3\3\333a6de2d1e26e6e6a8bbfa908b7f283876ef9ff
-{
-Kparent/yoa-server/src/main/java/com/server/controller/SalaryController.java,9\0\908b53f0d0236ad190d43f8dc0b3452f90b145c7
 |
 Lparent/yoa-server/src/main/java/com/server/controller/MailLogController.java,1\2\12835fe8a02d98caaa9b4ed0787394e265abae9d
 s
@@ -133,8 +131,6 @@ Yyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/controller/LoginContr
 Uyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/config/WebSocketConfig.java,4\9\498263d70fd0ea6a5b69153ccbc8e9805bc4c39e
 Ö
 Uyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/service/INationService.java,f\6\f6009e39db464f681c4f4f971f63d534e38fc0e4
-S
-#yeb/001 yeb_back/yeb-server/pom.xml,6\2\622a8a8be159f65b4c9e3de19c8c23e73b1a04f7
 É
 Syeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/config/CaptchaConfig.java,e\8\e89f2611733175f09e62fdc3f3dc2c6a58557d4c
 ã
@@ -393,8 +389,6 @@ _yeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/service/impl/MenuRole
 byeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/controller/EmployeeRemoveController.java,1\6\1623144761ba174dd2255197dc3c3a23ab692b76
 é
 ^yeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/controller/EmployeeEcController.java,e\6\e6e571eb52247a143c821a7eb26d381fdb46582c
-x
-Hyeb/001 yeb_back/yeb-server/src/main/resources/mapper/EmployeeMapper.xml,a\7\a70bdb10a594d623387140147cffa6f0127d5ca7
 ~
 Nyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/pojo/EmployeeEc.java,f\a\fad1119899c6de01d3b824b5c6b9b32f5c32b0ed
 §
@@ -429,16 +423,12 @@ s
 Cparent/yoa-server/src/main/java/com/server/dao/pojo/Department.java,a\0\a0acc3cd48eba2cb12925f7a1c38649ebb1e5320
 q
 Aparent/yoa-server/src/main/java/com/server/dao/pojo/Position.java,3\a\3ae3ded011115bd9872fbb1137c754df22340ab4
-o
-?parent/yoa-server/src/main/java/com/server/dao/pojo/Salary.java,1\7\17361fd3a203d28483c37ca146800fc19fae04da
 V
 &yeb/001 yeb_back/yeb-mail/yeb-mail.iml,a\7\a73534ccee5674f1113f16d3374263c119a0c9e0
 Z
 *yeb/001 yeb_back/yeb-server/yeb-server.iml,8\4\843adbcc2052562aa0d349febd89a1e349611c9f
 `
 0yeb/001 yeb_back/yeb-generator/yeb-generator.iml,1\d\1d7ade6f7581fa74ecf460046307c5f639bc9270
-y
-Iparent/yoa-server/src/main/java/com/server/dao/mapper/EmployeeMapper.java,a\7\a7ac7b48d7bd115e34b34cdd3710a4300f5010b3
 Z
 *.idea/libraries/Maven__ognl_ognl_3_2_6.xml,a\8\a8a02d8c3ae27884dfbb12d9382d4c311cf7d0bd
 v
@@ -505,7 +495,3 @@ dyeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/service/impl/Employee
 ayeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/service/impl/EmployeeEcServiceImpl.java,7\e\7eed3652f2efe047dca7f9b467af7e6fc0643010
 s
 Cparent/yoa-server/src/main/java/com/server/utils/DateConverter.java,2\a\2ab8d81f84e05fde200e010fab19174fea9a9ebd
-q
-Aparent/yoa-server/src/main/java/com/server/dao/pojo/Employee.java,4\7\4710db56c499630074186154d57cf93fa9827133
-è
-_yeb/001 yeb_back/yeb-server/src/main/java/com/awei/server/service/impl/EmployeeServiceImpl.java,5\b\5b566a98bc7e2edbed25ca5613a63cbd062f8c5d

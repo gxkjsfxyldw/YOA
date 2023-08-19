@@ -25,4 +25,6 @@ public interface EmployeeMapper extends BaseMapper<Employee> {
     IPage<Employee> getEmployeeByPage(@Param("page") Page<Employee> page, @Param("employee") Employee employee, @Param("beginDateScope") LocalDate[] beginDateScope);
     //根据id查询员工
     List<Employee> getEmployee(Integer id);
+    //获取所有员工工资账套
+    IPage<Employee> getEmployeeWithSalary(Page<Employee> page);
 }
