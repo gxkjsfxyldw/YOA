@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="yoa-mail" />
         <module name="yoa-server" />
         <module name="yoa-generator" />
       </profile>
@@ -14,6 +15,7 @@
     <bytecodeTargetLevel>
       <module name="parent" target="1.8" />
       <module name="yoa-generator" target="1.8" />
+      <module name="yoa-mail" target="8" />
       <module name="yoa-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="parent" options="-parameters" />
       <module name="yoa-generator" options="-parameters" />
+      <module name="yoa-mail" options="-parameters" />
       <module name="yoa-server" options="-parameters" />
     </option>
   </component>

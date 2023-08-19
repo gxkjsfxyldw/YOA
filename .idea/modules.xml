@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/yoa-generator/yoa-generator.iml" filepath="$PROJECT_DIR$/parent/yoa-generator/yoa-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/yoa-mail/yoa-mail.iml" filepath="$PROJECT_DIR$/parent/yoa-mail/yoa-mail.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/yoa-server/yoa-server.iml" filepath="$PROJECT_DIR$/parent/yoa-server/yoa-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/云上OA办公系统.iml" filepath="$PROJECT_DIR$/.idea/云上OA办公系统.iml" />
     </modules>

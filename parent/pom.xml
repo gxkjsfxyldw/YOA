@@ -7,6 +7,7 @@
     <modules>
         <module>yoa-server</module>
         <module>yoa-generator</module>
+        <module>yoa-mail</module>
     </modules>
 
     <groupId>com.yoa</groupId>

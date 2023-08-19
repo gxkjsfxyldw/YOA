@@ -1,0 +1,11 @@
+
+J
+java:S3740/"/Provide the parametrized type for this generic.(òºÎúÿÿÿÿ
+`
+java:S1128">Remove this unused import 'com.server.dao.mapper.AdminMapper'.(ÙÁÒøÿÿÿÿ8š”Ì1
+X
+java:S1128"6Remove this unused import 'com.server.dao.pojo.Admin'.(±²™üÿÿÿÿ8š”Ì1
+y
+java:S1128"\Remove this unused import 'org.springframework.security.core.context.SecurityContextHolder'.(ŒÄæë8›”Ì1
+u
+java:S1128"YRemove this unused import 'springfox.documentation.spi.service.contexts.SecurityContext'.(³ã¼8›”Ì1

@@ -47,21 +47,25 @@ spring:
         #最小空闲连接
         min-idle: 5
 
-#  # rabbitmq配置
-#  rabbitmq:
-#    # 用户名
-#    username: guest
-#    # 密码
-#    password: guest
-#    # 服务器地址
-#    host: 127.0.0.1
-#    # 端口
-#    port: 5672
-#    #消息确认回调
-#    publisher-confirm-type: correlated
-#    #消息失败回调
-#    publisher-returns: true
-
+  # rabbitmq配置
+  rabbitmq:
+    # 用户名
+    username: test
+    # 密码
+    password: test
+    # 服务器地址
+    host: 127.0.0.1
+    # 端口
+    port: 5672
+    virtual-host: /
+    #消息确认回调
+    publisher-confirm-type: correlated
+    #消息失败回调
+    publisher-returns: true
+    listener:
+      simple:
+        #开启手动确认
+        acknowledge-mode: manual
 # Mybatis-plus配置
 mybatis-plus:
   #配置Mapper映射文件
